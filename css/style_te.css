@@ -1,0 +1,24 @@
+:root {
+--project-color: #FFC054;
+}
+
+
+#slide-1 {
+  background-image: url("../img/te/te_splash_mockup.png");
+  /* background-color: yellow; */
+}
+#slide-2 {
+  background-image: url("img/te/te_splash_mockup.png");
+  background-color: blue;
+}
+#slide-3 {
+  background-image: url("img/te/te_splash_mockup.png");
+  background-color: khaki;
+}
+#slide-4 {
+  background-image: url("img/te/te_splash_mockup.png");
+  background-color: salmon;
+}
+#slide-5 {
+  background-image: url("img/te/te_splash_mockup.png");
+}

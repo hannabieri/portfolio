@@ -1,0 +1,36 @@
+:root {
+  --project-color: #F8D51C;
+}
+
+header {
+  padding-top: 3%;
+  padding-bottom: 2%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.grid-container-index {
+  width: 92%;
+  margin: 0% 4% 0 4%;
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(auto);
+  grid-gap: 0% 2%;
+}
+
+@media all and (max-width: 680px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  .grid-container-index {
+    width: 92%;
+    margin: 0% 4% 0 4%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-gap: 0% 2%;
+  }
+
+  .project_image_grid_start, .project_image_grid {
+    grid-column: span 3;
+  }

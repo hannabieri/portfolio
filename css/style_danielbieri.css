@@ -1,0 +1,55 @@
+:root {
+--project-color: #88C566;
+}
+
+
+.title-only-mobile {
+  display: none;
+}
+
+#slide-1, #slide-2, #slide-3, #slide-4, #slide-5, #slide-6 {
+  width: 250px;
+}
+#slide-1 {
+  background-image: url("../img/danielbieri/smartphone_01.png");
+}
+#slide-2 {
+  background-image: url("../img/danielbieri/smartphone_02.png");
+}
+#slide-3 {
+  background-image: url("../img/danielbieri/smartphone_03.png");
+}
+#slide-4 {
+  background-image: url("../img/danielbieri/smartphone_04.png");
+}
+#slide-5 {
+  background-image: url("../img/danielbieri/smartphone_05.png");
+}
+#slide-6 {
+  background-image: url("../img/danielbieri/smartphone_06.png");
+}
+
+#slide-7, #slide-8, #slide-9 {
+  width: 530px;
+  height: 87%;
+}
+
+#slide-7 {
+  background-image: url("../img/danielbieri/tablet_02.png");
+}
+#slide-8 {
+  background-image: url("../img/danielbieri/tablet_01.png");
+}
+#slide-9 {
+  background-image: url("../img/danielbieri/tablet_03.png");
+}
+
+
+@media (max-width: 700px){
+.splash_title_styling {
+  display: none;
+}
+.title-only-mobile {
+  display:block;
+}
+}
