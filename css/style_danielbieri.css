@@ -1,7 +1,6 @@
 :root {
---project-color: #88C566;
+  --project-color: #88C566;
 }
-
 
 .title-only-mobile {
   display: none;
@@ -10,46 +9,67 @@
 #slide-1, #slide-2, #slide-3, #slide-4, #slide-5, #slide-6 {
   width: 250px;
 }
+
 #slide-1 {
-  background-image: url("../img/danielbieri/smartphone_01.png");
-}
-#slide-2 {
-  background-image: url("../img/danielbieri/smartphone_02.png");
-}
-#slide-3 {
-  background-image: url("../img/danielbieri/smartphone_03.png");
-}
-#slide-4 {
-  background-image: url("../img/danielbieri/smartphone_04.png");
-}
-#slide-5 {
-  background-image: url("../img/danielbieri/smartphone_05.png");
-}
-#slide-6 {
-  background-image: url("../img/danielbieri/smartphone_06.png");
+  background-image: url("../img/danielbieri/iphone_1_gr.png");
 }
 
-#slide-7, #slide-8, #slide-9 {
+#slide-2 {
+  background-image: url("../img/danielbieri/iphone_2_gr.png");
+}
+
+#slide-3 {
+  background-image: url("../img/danielbieri/iphone_3_gr.png");
+}
+
+#slide-4 {
+  background-image: url("../img/danielbieri/iphone_4_gr.png");
+}
+
+#slide-5 {
+  background-image: url("../img/danielbieri/iphone_5_gr.png");
+}
+
+#slide-6 {
+  background-image: url("../img/danielbieri/iphone_6_gr.png");
+}
+
+#slide-7, #slide-8, #slide-9 {
   width: 530px;
   height: 87%;
 }
 
-#slide-7 {
-  background-image: url("../img/danielbieri/tablet_02.png");
+#slide-7 {
+  background-image: url("../img/danielbieri/ipad_2_gr.png");
 }
+
 #slide-8 {
-  background-image: url("../img/danielbieri/tablet_01.png");
+  background-image: url("../img/danielbieri/ipad_1_gr.png");
 }
+
 #slide-9 {
-  background-image: url("../img/danielbieri/tablet_03.png");
+  background-image: url("../img/danielbieri/ipad_3_gr.png");
 }
 
+@media (max-width: 700px) {
 
-@media (max-width: 700px){
-.splash_title_styling {
-  display: none;
-}
-.title-only-mobile {
-  display:block;
-}
+  /* .splash_title_styling {
+    display: none;
+  } */
+  .splash-box {
+    display: none;
+  }
+
+  .title-only-mobile {
+    font-size: 3.8rem;
+    box-shadow:
+      inset 0em -0.15em 0 0 white,
+      inset 0 -0.4em var(--project-color);
+    display: inline;
+  }
+
+  #slide-7, #slide-8, #slide-9 {
+    width: 305px;
+    height: 50%;
+  }
 }

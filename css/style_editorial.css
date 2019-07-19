@@ -1,0 +1,27 @@
+:root {
+  --project-color: #BF4404;
+}
+
+#slide-1 {
+  background-image: url("../img/te/iphone_1_gr.png");
+}
+
+#slide-2 {
+  background-image: url("../img/te/iphone_2_gr.png");
+}
+
+#slide-3 {
+  background-image: url("../img/te/iphone_3_gr.png");
+}
+
+#slide-4 {
+  background-image: url("../img/te/iphone_4_gr.png");
+}
+
+#slide-5 {
+  background-image: url("../img/te/iphone_5_gr.png");
+}
+
+#slide-6 {
+  background-image: url("../img/te/iphone_6_gr.png");
+}
