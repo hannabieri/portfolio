@@ -1,0 +1,7 @@
+:root {
+  --project-color: #A079C3;
+}
+
+.project_image_grid, .project_image_grid_start {
+  align-items: center;
+}
