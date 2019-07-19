@@ -200,6 +200,8 @@ a:hover {
 
 .splash_description {
   grid-column: 2 / 8;
+  line-height: 1.5em;
+  padding-right: 10%;
 }
 
 .splash_right {
@@ -401,6 +403,7 @@ a:hover {
   padding-bottom: 10%;
   margin-bottom: -45px;
   grid-column: 11/13;
+  text-align: right;
 }
 
 .prev-project h3, .next-project h3 {
