@@ -81,7 +81,7 @@ video {
 
 /*---------------loader---------------*/
 /* This only works with JavaScript,
-if it's not present, don't show loader */
+if it's not present, don't show loader
 .no-js #loader {
   display: none;
 }
@@ -101,8 +101,7 @@ if it's not present, don't show loader */
   height: 100%;
   z-index: 9999;
   background: url(img/loader_palmtree.gif) center no-repeat #fff;
-}
-
+}*/
 /*------------------------------------------------font-styles-------------------------------------------------*/
 h1 {
   font-size: 6.5rem;
@@ -439,6 +438,10 @@ a:hover {
     z-index: 1;
   }
 
+  footer {
+    padding-bottom: 10%;
+  }
+
   h1 {
     font-size: 300%;
   }
@@ -514,6 +517,7 @@ a:hover {
     float: right;
   }
 
+  /*
   #index-navigation {
     margin-left: auto;
     margin-right: auto;
@@ -528,6 +532,13 @@ a:hover {
 
   .index-navigation-element p {
     font-size: 101%;
+  } */
+  #index-navigation {
+    display: none;
+  }
+
+  .grid-container-index {
+    padding-top: 5%;
   }
 
   .project_box_title_left, .project_box_title_right {
