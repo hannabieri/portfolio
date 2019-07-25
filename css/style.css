@@ -294,6 +294,10 @@ a:hover {
   grid-column: 3 / 9 !important;
 }
 
+.plus2-title {
+  grid-column: 2 / 9 !important;
+}
+
 .plus1 {
   grid-column: 3 / 8 !important;
 }
@@ -350,6 +354,14 @@ a:hover {
 
 .image-right-bigger {
   grid-column: 8 / span 5;
+}
+
+.image-3-11 {
+  grid-column: 3 / 11;
+  grid-row: auto;
+  padding-top: 6%;
+  padding-bottom: 2%;
+  background-color: pink;
 }
 
 .image-fullwidth {
@@ -568,7 +580,7 @@ a:hover {
     grid-column: 3 / span 4;
   }
 
-  .image-right-bigger {
+  .image-right-bigger, .image-3-11 {
     grid-column: 2 / span 5;
   }
 
