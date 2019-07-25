@@ -395,11 +395,13 @@ a:hover {
 }
 
 .slide {
-  width: 240px;
+  width: 248px;
   flex-shrink: 0;
   height: 100%;
   margin-right: 3%;
   background-size: cover;
+  border-radius: 1.2rem;
+  box-shadow: darkgreen 8px 8px 0 0;
 }
 
 .slides>div {
@@ -561,7 +563,7 @@ a:hover {
 
   .project_box_description_left, .project_box_description_right, .havealookat, .plus2, .plus1 {
     grid-column: 2 / 7 !important;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
     padding-right: 3%;
   }
 
@@ -576,11 +578,11 @@ a:hover {
     padding-top: 4%;
   }
 
-  .image-right {
-    grid-column: 3 / span 4;
+  .slider-tablet {
+    margin-bottom: -200px;
   }
 
-  .image-right-bigger, .image-3-11 {
+  .image-right, .image-right-bigger, .image-3-11, .image-fullwidth {
     grid-column: 2 / span 5;
   }
 
