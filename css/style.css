@@ -325,6 +325,10 @@ a:hover {
   grid-column: 9 / 12;
 }
 
+.havealookat p:first-line {
+  font-weight: 700;
+}
+
 .project_image_slider {
   /* background: purple; */
   grid-column: 2 / 13;
