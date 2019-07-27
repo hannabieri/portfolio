@@ -151,6 +151,7 @@ a:hover {
 .rolecontext {
   text-transform: uppercase;
   padding-bottom: 5%;
+  line-height: 1.5em;
 }
 
 /*------------------------------------------------ grid -------------------------------------------------*/
@@ -217,7 +218,7 @@ a:hover {
 }
 
 .splash_image {
-  grid-column: 10 / 13;
+  grid-column: 9 / 13;
   grid-row: 1 / span 2;
   float: right;
   height: 85%;
@@ -470,9 +471,8 @@ a:hover {
   }
 
   .splash_title {
-    /* background: blue; */
     grid-column: 1 / 7;
-    margin-top: 300px;
+    margin-top: 320px;
   }
 
   .splash_titleh2 {
@@ -607,6 +607,26 @@ a:hover {
     height: 43vh;
     padding-top: 37%;
     z-index: 0;
+  }
+
+  .splash {
+    padding-bottom: 30%;
+  }
+}
+
+@media only screen and (max-width:375px) {
+  .splash_title {
+    margin-top: 380px;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .splash_title {
+    margin-top: 240px;
+  }
+
+  .splash {
+    padding-bottom: 140px;
   }
 }
 
