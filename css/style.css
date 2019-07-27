@@ -279,7 +279,6 @@ a:hover {
 }
 
 .project_box_title_right {
-  /* background:pink; */
   grid-column: 8 / 13;
   grid-row: 1 / 2;
   padding-top: 25%;
@@ -304,13 +303,11 @@ a:hover {
 }
 
 .project_box_description_right {
-  /* background: pink; */
   grid-column: 9 / 13;
   /* padding-bottom: 20%; */
 }
 
 .project_box_subtitle {
-  /* background:darkblue; */
   grid-column: 3 / 7;
   padding-top: 12%;
   /*padding-bottom: 20%; */
@@ -366,7 +363,6 @@ a:hover {
   grid-row: auto;
   padding-top: 6%;
   padding-bottom: 2%;
-  background-color: pink;
 }
 
 .image-fullwidth {
@@ -476,15 +472,18 @@ a:hover {
 
   .splash_title {
     grid-column: 1 / 7;
-    margin-top: 320px;
-  }
-
-  .splash_titleh2 {
-    line-height: 2em;
+    margin-top: 290px;
   }
 
   .splash_description {
     grid-column: 2 / 7;
+  }
+
+  .splash_description h4 {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    font-size: 110%;
+    line-height: 1.1em;
   }
 
   .splash_right {
