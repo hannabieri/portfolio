@@ -518,7 +518,7 @@ a:hover {
   .index-title {
     grid-column: 2 / 6;
     padding-top: 60%;
-    line-height: 0.7 em;
+    line-height: 3em;
   }
 
   .index-arrow {
