@@ -18,7 +18,10 @@ html, body {
 }
 
 ::selection {
-  background: var(--project-color);
+  /* background: var(--project-color);
+  color: black; */
+  background-color: white;
+  color: var(--project-color);
 }
 
 a:focus {
@@ -402,7 +405,7 @@ a:hover {
   margin-right: 3%;
   background-size: cover;
   border-radius: 1.2rem;
-  box-shadow: darkgreen 8px 8px 0 0;
+  box-shadow: 3px 5px 10px #778899;
 }
 
 .slides>div {
@@ -437,7 +440,8 @@ a:hover {
   }
 
   .splash-tablet {
-    height: 52vh;
+    width: 95%;
+    padding-top: 42%;
   }
 
   .splash_right {
@@ -501,7 +505,7 @@ a:hover {
   }
 
   .splash-tablet {
-    grid-column: 2 / 7;
+    grid-column: 3 / 7;
     float: right;
     z-index: 0;
     float: right;
@@ -603,49 +607,54 @@ a:hover {
   }
 }
 
-@media only screen and (max-width:450px) {
-  .splash_image {
-    grid-column: 4 / 7;
-    float: right;
-    height: 43vh;
-    padding-top: 37%;
-    z-index: 0;
+@media only screen and (max-width:510px) {
+  .splash-tablet {
+    grid-column: 2 / 7;
   }
 
-  .splash {
-    padding-bottom: 30%;
-  }
-}
+  @media only screen and (max-width:450px) {
+    .splash_image {
+      grid-column: 4 / 7;
+      float: right;
+      height: 43vh;
+      padding-top: 37%;
+      z-index: 0;
+    }
 
-/* --------iphone X styling ------------- */
-@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
-  .splash_title {
-    margin-top: 380px;
-  }
-}
-
-@media only screen and (max-width:320px) {
-  .splash_title {
-    margin-top: 240px;
+    .splash {
+      padding-bottom: 30%;
+    }
   }
 
-  .splash {
-    padding-bottom: 140px;
+  /* --------iphone X styling ------------- */
+  @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+    .splash_title {
+      margin-top: 380px;
+    }
   }
-}
 
-@media print {
-  .grid-container {
-    width: 110%;
-    margin: 0% 0% 0 0%;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(auto);
-    grid-gap: 0% 2%;
+  @media only screen and (max-width:320px) {
+    .splash_title {
+      margin-top: 240px;
+    }
+
+    .splash {
+      padding-bottom: 140px;
+    }
   }
-}
 
-/*
+  @media print {
+    .grid-container {
+      width: 110%;
+      margin: 0% 0% 0 0%;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      grid-template-rows: repeat(auto);
+      grid-gap: 0% 2%;
+    }
+  }
+
+  /*
 
 @media only screen and (max-width:735px) {
   .grid-container {
