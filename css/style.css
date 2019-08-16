@@ -111,6 +111,7 @@ h1 {
   font-weight: 400;
   line-height: 0.8;
   display: inline-block;
+  letter-spacing: 0.5px;
 }
 
 h2 {
@@ -118,6 +119,7 @@ h2 {
   font-weight: 400;
   line-height: 0.8;
   display: inline-block;
+  letter-spacing: 1.5px;
 }
 
 h3 {
@@ -126,6 +128,7 @@ h3 {
   margin-block-start: 0em;
   padding-bottom: 3%;
   text-transform: uppercase;
+  letter-spacing: 0.8px;
 }
 
 h4 {
@@ -133,10 +136,12 @@ h4 {
   padding-bottom: 15%;
   font-weight: 400;
   font-size: 130%;
+  letter-spacing: 0.4px;
 }
 
 p {
   font-size: 82%;
+  letter-spacing: 0.3px;
 }
 
 a {
@@ -192,12 +197,14 @@ a:hover {
 /*----------------- grid header ------- */
 .header_left {
   grid-column: 1 / 4;
+  letter-spacing: 0.4px;
 }
 
 .header_right {
   grid-column: 11 / 13;
   text-align: right;
   z-index: 1;
+  letter-spacing: 0.4px;
 }
 
 /*----------------- grid splash ------- */
