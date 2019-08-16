@@ -346,14 +346,18 @@ a:hover {
 
 .project_image_grid {
   grid-column: span 3;
-  padding-top: 10%;
-  padding-bottom: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.project_image_grid img:hover, .project_image_grid_start img:hover {
+  box-shadow: 1px 1px 6px #79a2af;
 }
 
 .project_image_grid_start {
   grid-column: 3 / span 3;
-  padding-top: 10%;
-  padding-bottom: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 .image-right {
