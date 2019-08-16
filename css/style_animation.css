@@ -1,7 +1,11 @@
 :root {
-  --project-color: #A079C3;
+  --project-color: #ead5bf;
 }
 
 .project_image_grid, .project_image_grid_start {
   align-items: center;
+}
+
+.splash_image {
+  box-shadow: 3px 3px 12px #a79079;
 }

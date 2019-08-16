@@ -1,5 +1,10 @@
 :root {
-  --project-color: #88C566;
+  --project-color: #BFE09D;
+}
+
+.splash_image {
+  border-radius: 1.6rem;
+  box-shadow: 3px 3px 12px #869c6f;
 }
 
 .title-only-mobile {

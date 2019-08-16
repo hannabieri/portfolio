@@ -1,5 +1,10 @@
 :root {
-  --project-color: #FFC054;
+  --project-color: #f6cd86;
+}
+
+.splash_image {
+  border-radius: 1.6rem;
+  box-shadow: 3px 3px 12px #ad782d;
 }
 
 #slide-1 {

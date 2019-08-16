@@ -1,9 +1,9 @@
 :root {
-  --project-color: #0396A6;
+  --project-color: #dccfe4;
 }
 
 .splash_image {
-  grid-column: 9 / 13;
+  grid-column: 9 / 13 !important;
   padding-top: 10%;
   margin-left: 10px;
   grid-row: 1 / span 2;

@@ -2,6 +2,10 @@
   --project-color: #dec09b;
 }
 
+.splash_image {
+  box-shadow: 3px 3px 12px #826d54;
+}
+
 #slide-1 {
   background-image: url("../img/te/iphone_1_gr.png");
 }

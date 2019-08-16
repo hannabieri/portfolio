@@ -1,0 +1,50 @@
+:root {
+  --project-color: #b8c5e2;
+}
+
+.havealookat {
+  padding-top: 15vh;
+}
+
+.splash_image {
+  grid-column: 11 / 13;
+  height: 90%;
+  border-radius: 1.2rem;
+  box-shadow: 3px 5px 10px #778899;
+}
+
+#slide-7, #slide-8, #slide-9 {
+  width: 650px;
+  height: 87%;
+}
+
+#slide-7 {
+  background-image: url("../img/dmm/ntv_v1.jpg");
+}
+
+#slide-8 {
+  background-image: url("../img/dmm/freiepresse_v1.jpg");
+}
+
+#slide-9 {
+  background-image: url("../img/dmm/mockup-banner.gif");
+}
+
+/*-----------__-----*/
+@media (max-width: 700px) {
+  .splash_image {
+    /* grid-column: -1 / 7;
+    height: 42%;
+    margin-top: 40%; */
+    display: none;
+  }
+
+  #slide-7, #slide-8, #slide-9 {
+    width: 305px;
+    height: 50%;
+  }
+
+  .havealookat {
+    padding-top: 0;
+  }
+}
