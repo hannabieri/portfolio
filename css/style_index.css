@@ -21,6 +21,14 @@ header {
   grid-gap: 0% 2%;
 }
 
+.project_image_grid, .project_image_grid_start {
+  box-shadow: none;
+}
+
+.project_image_grid img:hover, .project_image_grid_start img:hover {
+  box-shadow: 4px 4px 12px #79a2af;
+}
+
 @media all and (max-width: 680px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
   .grid-container-index {
     width: 92%;
