@@ -82,29 +82,6 @@ video {
   height: auto;
 }
 
-/*---------------loader---------------*/
-/* This only works with JavaScript,
-if it's not present, don't show loader
-.no-js #loader {
-  display: none;
-}
-
-.js #loader {
-  display: block;
-  position: absolute;
-  left: 100px;
-  top: 0;
-}
-
-.se-pre-con {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-  background: url(img/loader_palmtree.gif) center no-repeat #fff;
-}*/
 /*------------------------------------------------font-styles-------------------------------------------------*/
 h1 {
   font-size: 6.5rem;
@@ -168,7 +145,7 @@ a:hover {
 }
 
 .wrapper:nth-child(odd) {
-  background: Gainsboro;
+  background: #e6e6e6;
 }
 
 .grid-container {
@@ -332,13 +309,14 @@ a:hover {
   line-height: 1.2em;
 }
 
-/*----------------- grid images & link ------- */
+/*----------------- grid images & link --------------------------- */
 .havealookat {
   grid-column: 9 / 12;
 }
 
 .havealookat p:first-line {
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .project_image_slider {
@@ -394,7 +372,7 @@ a:hover {
   box-shadow: 3px 5px 10px #7788992e;
 }
 
-/*------------- COLOURS -----------------*/
+/*------------- COLOURS -----------------------------------------------------*/
 .splash-bg {
   background-color: var(--project-color);
 }
@@ -451,6 +429,27 @@ a:hover {
 .prev-project h3, .next-project h3 {
   text-transform: none !important;
   font-size: 101%;
+}
+
+/*------------------------------------decoration --------------*/
+.expanding-border {
+  position: relative;
+  margin-left: 0;
+}
+
+.expanding-border:hover::before {
+  height: 100%;
+}
+
+.expanding-border::before {
+  position: absolute;
+  content: "";
+  background: var(--project-color);
+  height: 0;
+  width: 2px;
+  top: 0;
+  left: -25px;
+  transition: height 0.7s ease;
 }
 
 @media all and (max-width: 1024px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
