@@ -492,6 +492,7 @@ a:hover {
   .grid-container {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto 1fr auto;
+    width: 90%;
   }
 
   .splash_title {
@@ -520,7 +521,7 @@ a:hover {
     grid-column: 5 / 7;
     float: right;
     height: 42vh;
-    padding-top: 37%;
+    margin-top: 37%;
     z-index: 0;
   }
 
@@ -558,22 +559,6 @@ a:hover {
     float: right;
   }
 
-  /*
-  #index-navigation {
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
-    padding-top: 4%;
-  }
-
-  .index-navigation-element {
-    display: inline-block;
-    width: 22%;
-  }
-
-  .index-navigation-element p {
-    font-size: 101%;
-  } */
   #index-navigation {
     display: none;
   }
@@ -596,13 +581,11 @@ a:hover {
 
   .project_box_subtitle {
     grid-column: 2 / 7;
-    /* padding-top: 20%;
-    padding-bottom: 20%; */
   }
 
   .project_image_grid, .project_image_grid_start {
     grid-column: 2 / span 5;
-    padding-top: 4%;
+    margin-top: 4%;
   }
 
   .slider-tablet {
@@ -634,49 +617,66 @@ a:hover {
     grid-column: 2 / 7;
   }
 
-  @media only screen and (max-width:450px) {
-    .splash_image {
-      grid-column: 4 / 7;
-      float: right;
-      height: 43vh;
-      padding-top: 37%;
-      z-index: 0;
-    }
-
-    .splash {
-      padding-bottom: 30%;
-    }
+  .header_right {
+    grid-column: 4/7;
   }
 
-  /* --------iphone X styling ------------- */
-  @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
-    .splash_title {
-      margin-top: 380px;
-    }
+  .grid-container p {
+    font-size: 92%;
   }
 
-  @media only screen and (max-width:320px) {
-    .splash_title {
-      margin-top: 240px;
-    }
+  .rolecontext {
+    font-size: 80% !important;
+  }
+}
 
-    .splash {
-      padding-bottom: 140px;
-    }
+@media only screen and (max-width:450px) {
+  .splash_image {
+    grid-column: 4 / 7;
+    float: right;
+    height: 43vh;
+    margin-top: 37%;
+    z-index: 0;
   }
 
-  @media print {
-    .grid-container {
-      width: 110%;
-      margin: 0% 0% 0 0%;
-      display: grid;
-      grid-template-columns: repeat(12, 1fr);
-      grid-template-rows: repeat(auto);
-      grid-gap: 0% 2%;
-    }
+  .splash {
+    padding-bottom: 30%;
   }
 
-  /*
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+/* --------iphone X styling ------------- */
+@media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
+  .splash_title {
+    margin-top: 380px;
+  }
+}
+
+@media only screen and (max-width:320px) {
+  .splash_title {
+    margin-top: 255px;
+  }
+
+  .splash {
+    padding-bottom: 140px;
+  }
+}
+
+@media print {
+  .grid-container {
+    width: 110%;
+    margin: 0% 0% 0 0%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(auto);
+    grid-gap: 0% 2%;
+  }
+}
+
+/*
 
 @media only screen and (max-width:735px) {
   .grid-container {
