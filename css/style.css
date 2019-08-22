@@ -256,15 +256,14 @@ a:hover {
   padding-bottom: 4%;
 }
 
-.index-navigation-element {
+/* .index-navigation-element {
   display: inline-block;
   width: 23%;
 }
 
 .index-navigation-element p {
   font-size: 101%;
-}
-
+} */
 .project_box_title_left {
   grid-column: 2 / 7;
   padding-top: 25%;
@@ -453,8 +452,12 @@ a:hover {
 }
 
 @media all and (max-width: 1024px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  .splash {
+    height: 64vh;
+  }
+
   .splash_image {
-    height: 62vh;
+    height: 45vh;
     grid-column: 9 / 13;
     margin-top: 37%;
   }
@@ -465,7 +468,7 @@ a:hover {
   }
 
   .splash_right {
-    height: 99.2vh;
+    height: 70vh;
   }
 }
 
@@ -495,9 +498,15 @@ a:hover {
     width: 90%;
   }
 
+  .splash {
+    padding-bottom: 50px;
+    background-color: white;
+    height: 78vh;
+  }
+
   .splash_title {
     grid-column: 1 / 7;
-    margin-top: 230px;
+    margin-top: 250px;
   }
 
   .splash_description {
@@ -513,7 +522,7 @@ a:hover {
 
   .splash_right {
     left: 0;
-    height: 55vh;
+    height: 51vh;
     width: 100%;
   }
 
@@ -521,7 +530,7 @@ a:hover {
     grid-column: 5 / 7;
     float: right;
     height: 42vh;
-    margin-top: 37%;
+    margin-top: 30%;
     z-index: 0;
   }
 
@@ -533,11 +542,6 @@ a:hover {
     height: auto;
     margin-top: 4em;
     margin-left: 0;
-  }
-
-  .splash {
-    padding-bottom: 50px;
-    background-color: white;
   }
 
   .index-title {
@@ -557,10 +561,6 @@ a:hover {
     grid-row: 3;
     z-index: 1;
     float: right;
-  }
-
-  #index-navigation {
-    display: none;
   }
 
   .grid-container-index {
@@ -626,17 +626,13 @@ a:hover {
   }
 
   .rolecontext {
-    font-size: 80% !important;
+    font-size: 70% !important;
   }
 }
 
 @media only screen and (max-width:450px) {
   .splash_image {
     grid-column: 4 / 7;
-    float: right;
-    height: 43vh;
-    margin-top: 37%;
-    z-index: 0;
   }
 
   .splash {
@@ -650,8 +646,15 @@ a:hover {
 
 /* --------iphone X styling ------------- */
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
-  .splash_title {
-    margin-top: 380px;
+  .splash_title {}
+
+  .splash {
+    padding-bottom: 15%;
+    height: 83vh;
+  }
+
+  .splash h2 {
+    padding-top: 5%;
   }
 }
 
@@ -677,28 +680,8 @@ a:hover {
 }
 
 /*
-
-@media only screen and (max-width:735px) {
-  .grid-container {
-  margin: 2% 1% 0 1%;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-column-gap: 2%;
-  grid-row-gap: 10px;
-  grid-template-areas:
-    ".  caption"
-    "text text"}
-}
-
-
-
-
-
-
 @media print {
     #cssmenu { display: none !important;
-
     }
 }
-
 */

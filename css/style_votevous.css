@@ -4,7 +4,6 @@
 
 .splash_image {
   grid-column: 9 / 13 !important;
-  padding-top: 10%;
   margin-left: 10px;
   grid-row: 1 / span 2;
   float: right;
@@ -13,16 +12,16 @@
 
 @media all and (max-width: 1024px) {
   .splash_image {
-    height: 60vh;
-    grid-column: 8 / 13;
-    margin-left: 25px;
+    height: 50vh;
+    grid-column: 8 / 13 !important;
+    margin-left: 16px;
   }
 }
 
 @media all and (max-width: 680px) {
   .splash_image {
-    grid-column: 3 / 7;
-    height: 42vh;
-    padding-top: 25%;
+    grid-column: 3 / 7 !important;
+    height: 38vh;
+    padding-top: 0;
   }
 }
