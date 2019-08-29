@@ -85,13 +85,11 @@ header a {
 .social-media {
   padding: 8% 10% 8% 4%;
   float: right;
+  width: 30%;
 }
 
 .social-media a {
-  /* width: 40px; */
-  padding-left: 8%;
-  align-items: baseline;
-  /* background-color: salmon; */
+  margin-left: 5%;
 }
 
 .wrapper:nth-child(even) {
