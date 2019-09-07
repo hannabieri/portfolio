@@ -178,6 +178,42 @@ header {
   }
 }
 
+/*--------- index arrow -------------*/
+.slideInDown-Index {
+  animation: 8s ease-in slideInDown-Index;
+  -webkit-animation: 8s ease-in slideInDown-Index;
+}
+
+@keyframes slideInDown-Index {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slideInDown-Index {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+  }
+
+  80% {
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
 @media all and (max-width: 1024px) {
   .grid-container-index {
     margin: 9% 4% 0 4%

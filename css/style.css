@@ -235,6 +235,7 @@ a:hover {
   grid-column: 2 / 12;
   padding-top: 20%;
   line-height: 4em;
+  height: 400px;
 }
 
 .index-arrow {
@@ -613,6 +614,7 @@ a:hover {
   .index-arrow {
     grid-row: 3;
     grid-column: 3 / span 2;
+    scroll-behavior: smooth;
   }
 
   .index-about {
