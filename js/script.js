@@ -1,3 +1,5 @@
+// Escape on About
+
 function escapeAbout() {
   document.addEventListener("keydown", function(event) {
     if (event.which === 27) {
@@ -8,6 +10,28 @@ function escapeAbout() {
     }
   })
 }
+
+
+// Collapser
+
+var targetElements = document.getElementsByClassName("textarea")
+console.log(targetElements);
+Array.prototype.map.call(targetElements, function(element) {
+  console.log("I love Jack");
+
+  element.addEventListener("click", function(event) {
+    console.log(event);
+
+    var isExpanded = element.classList.contains("textarea-expand")
+
+    if (isExpanded === true) {
+      element.classList.remove("textarea-expand")
+    } else {
+      element.classList.add("textarea-expand")
+    }
+
+  })
+})
 
 
 // var speed = 'slow';

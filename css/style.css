@@ -122,8 +122,9 @@ h4 {
 }
 
 p {
-  font-size: 82%;
+  font-size: 92%;
   letter-spacing: 0.3px;
+  line-height: 1.4em;
 }
 
 a {
@@ -139,6 +140,7 @@ a:hover {
 }
 
 .rolecontext {
+  font-size: 80%;
   text-transform: uppercase;
   padding-bottom: 5%;
   line-height: 1.5em;
@@ -499,18 +501,17 @@ a:hover {
   align-item: center;
 }
 
-.textarea:hover {
+.textarea-expand {
   max-height: 1000px;
 }
 
-.textarea:hover .collapse-icon img {
+/* .textarea:hover .collapse-icon img {
   transform: rotate(180deg);
 }
 
 .textarea:hover .collapser {
   background-image: none;
-}
-
+} */
 /* ------------------------ ipad breakpoint ------------------------------ */
 @media all and (max-width: 1024px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
   .splash {
