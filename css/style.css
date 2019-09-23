@@ -353,6 +353,18 @@ a:hover {
   box-shadow: 3px 5px 10px #7788992e;
 }
 
+.project_image_span5 {
+  grid-column: span 5;
+  margin-top: 10%;
+  box-shadow: 3px 5px 10px #7788992e;
+}
+
+.project_image_span5_start {
+  grid-column: 3 / span 5;
+  margin-top: 10%;
+  box-shadow: 3px 5px 10px #7788992e;
+}
+
 .image-right {
   float: right;
   grid-column: 10 / span 3;
@@ -373,6 +385,12 @@ a:hover {
 }
 
 .image-fullwidth {
+  grid-column: 3 / 13;
+  margin-top: 5%;
+  box-shadow: 3px 5px 10px #7788992e;
+}
+
+video {
   grid-column: 3 / 13;
   margin-top: 5%;
   box-shadow: 3px 5px 10px #7788992e;
@@ -646,7 +664,7 @@ a:hover {
     grid-column: 2 / 7;
   }
 
-  .project_image_grid, .project_image_grid_start {
+  .project_image_grid, .project_image_grid_start, .project_image_span5, .project_image_span5_start {
     grid-column: 2 / span 5;
     margin-top: 4%;
   }
