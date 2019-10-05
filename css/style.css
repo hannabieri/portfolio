@@ -56,21 +56,29 @@ footer {
   margin-top: 5%;
 }
 
-.social-media {
-  padding: 0% 0% 0% 5%;
-  float: left;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1%;
 }
 
-.social-media a {
-  float: left;
-  margin-right: 20px;
-  align-items: baseline;
-  /* background-color: salmon; */
+.social-media {
+  padding: 0% 0% 0% 5%;
+  align-self: center;
 }
 
 .social-media a:hover {
   box-shadow: inset 0 -0.4em var(--project-color);
   width: auto;
+}
+
+.social-media img {
+  width: 30%;
+  margin-right: 2%;
+}
+
+.contact-info {
+  align-self: center;
 }
 
 footer a {
