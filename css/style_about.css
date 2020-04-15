@@ -135,4 +135,8 @@ header a {
   .header_right {
     grid-column: 4 / 7;
   }
+
+  .social-media-about img {
+    width: 35px;
+  }
 }

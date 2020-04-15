@@ -14,7 +14,7 @@ header {
 
 .grid-container-index {
   width: 92%;
-  margin: 0% 4% 0 4%;
+  margin: 0% 4% 10% 4%;
   display: grid;
   grid-template-columns: repeat(13, 1fr);
   grid-template-rows: repeat(auto);
@@ -216,13 +216,13 @@ header {
 
 @media all and (max-width: 1024px) {
   .grid-container-index {
-    margin: 9% 4% 0 4%
+    margin: 9% 4% 10% 4%
   }
 }
 
 @media all and (max-width: 900px) {
   .grid-container-index {
-    margin: 12% 4% 0 4%
+    margin: 12% 4% 10% 4%
   }
 }
 
