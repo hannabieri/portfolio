@@ -43,7 +43,7 @@ header {
 }
 
 .css-typing h1:nth-child(1) {
-  width: 8.9em;
+  width: 9.4em;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
@@ -51,7 +51,7 @@ header {
 }
 
 .css-typing h1:nth-child(2) {
-  width: 8.7em;
+  width: 9.5em;
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
   animation: type2 2s steps(40, end);
@@ -256,7 +256,7 @@ header {
   }
 
   .css-typing-mobile h1:nth-child(1) {
-    width: 4.4em;
+    width: 4.7em;
     -webkit-animation: type 1s steps(40, end);
     animation: type 1s steps(40, end);
     -webkit-animation-fill-mode: forwards;
@@ -275,7 +275,7 @@ header {
   }
 
   .css-typing-mobile h1:nth-child(3) {
-    width: 5.6em;
+    width: 6em;
     opacity: 0;
     -webkit-animation: type2 1.3s steps(40, end);
     animation: type2 1.3s steps(40, end);
@@ -286,7 +286,7 @@ header {
   }
 
   .css-typing-mobile h1:nth-child(4) {
-    width: 3.3em;
+    width: 3.5em;
     opacity: 0;
     -webkit-animation: type2 0.8s steps(40, end);
     animation: type2 0.8s steps(40, end);
@@ -297,7 +297,7 @@ header {
   }
 
   .css-typing-mobile h1:nth-child(5) {
-    width: 5em;
+    width: 5.4em;
     opacity: 0;
     -webkit-animation: type2 1.3s steps(20, end);
     animation: type2 1.3s steps(20, end);

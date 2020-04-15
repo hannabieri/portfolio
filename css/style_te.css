@@ -38,3 +38,21 @@
     margin-top: 8%;
   }
 }
+
+@media (max-width: 680px) {
+  .splash_image {
+    grid-column: 5 / 7;
+    float: right;
+    height: 42vh;
+    margin-top: 30%;
+    z-index: 0;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .splash_image {
+    grid-column: 4 / 7;
+    width: auto;
+  }
+}
