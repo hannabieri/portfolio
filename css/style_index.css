@@ -26,7 +26,16 @@ header {
 }
 
 .project_image_grid img:hover, .project_image_grid_start img:hover {
-  box-shadow: 4px 4px 12px #79a2af73;
+  box-shadow: 3px 3px 18px #9CA1BD;
+  border-radius: 14px;
+}
+
+.index-desktop {
+  display: inline;
+}
+
+.index-mobile {
+  display: none;
 }
 
 /* -------------------- The typewriter effect -------------------- */
@@ -431,5 +440,27 @@ h1 {
   @-webkit-keyframes blink {
     50% {
       border-color: tranparent;
+    }
+  }
+
+  @media all and (max-width: 1024px) {
+    .project_image_grid img:hover, .project_image_grid_start img:hover {
+      box-shadow: 3px 3px 18px #9CA1BD;
+      border-radius: 22px;
+    }
+  }
+
+  @media all and (max-width: 680px) {
+    .index-desktop {
+      display: none;
+    }
+
+    .index-mobile {
+      display: inline;
+    }
+
+    .project_image_grid_start, .project_image_grid {
+      grid-column: span 6 !important;
+      margin-bottom: 0%;
     }
   }
