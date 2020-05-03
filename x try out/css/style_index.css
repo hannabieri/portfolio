@@ -26,16 +26,10 @@ header {
 }
 
 .project_image_grid img:hover, .project_image_grid_start img:hover {
-  box-shadow: 4px 4px 12px #79a2af73;
+  box-shadow: 1px 2px 15px #cfdee2;
 }
 
 /* -------------------- The typewriter effect -------------------- */
-h1 {
-  font-size: 5.3rem;
-  font-weight: 400;
-  letter-spacing: 0;
-}
-
 .css-typing-mobile {
   display: none;
 }
@@ -49,7 +43,7 @@ h1 {
 }
 
 .css-typing h1:nth-child(1) {
-  width: 10.5em;
+  width: 9.4em;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
@@ -57,7 +51,7 @@ h1 {
 }
 
 .css-typing h1:nth-child(2) {
-  width: 10.3em;
+  width: 9.5em;
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
   animation: type2 2s steps(40, end);
@@ -68,7 +62,7 @@ h1 {
 }
 
 .css-typing h1:nth-child(3) {
-  width: 8.4em;
+  width: 7.3em;
   opacity: 0;
   -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
   animation: type3 1.5s steps(20, end), blink .5s step-end infinite alternate;
@@ -243,14 +237,10 @@ h1 {
   }
 
   .project_image_grid_start, .project_image_grid {
-    grid-column: span 3;
+    grid-column: span 5;
   }
 
   /*--------------effekr-----------------*/
-  h1 {
-    font-size: 2.4em;
-  }
-
   .css-typing {
     display: none;
   }
@@ -266,7 +256,7 @@ h1 {
   }
 
   .css-typing-mobile h1:nth-child(1) {
-    width: 5.1em;
+    width: 4.7em;
     -webkit-animation: type 1s steps(40, end);
     animation: type 1s steps(40, end);
     -webkit-animation-fill-mode: forwards;
@@ -274,7 +264,7 @@ h1 {
   }
 
   .css-typing-mobile h1:nth-child(2) {
-    width: 5.1em;
+    width: 4.7em;
     opacity: 0;
     -webkit-animation: type2 1s steps(40, end);
     animation: type2 1s steps(40, end);
@@ -285,7 +275,7 @@ h1 {
   }
 
   .css-typing-mobile h1:nth-child(3) {
-    width: 6.6em;
+    width: 6em;
     opacity: 0;
     -webkit-animation: type2 1.3s steps(40, end);
     animation: type2 1.3s steps(40, end);
@@ -296,7 +286,7 @@ h1 {
   }
 
   .css-typing-mobile h1:nth-child(4) {
-    width: 4em;
+    width: 3.5em;
     opacity: 0;
     -webkit-animation: type2 0.8s steps(40, end);
     animation: type2 0.8s steps(40, end);
@@ -307,7 +297,7 @@ h1 {
   }
 
   .css-typing-mobile h1:nth-child(5) {
-    width: 5.7em;
+    width: 5.4em;
     opacity: 0;
     -webkit-animation: type2 1.3s steps(20, end);
     animation: type2 1.3s steps(20, end);
@@ -318,7 +308,7 @@ h1 {
   }
 
   .css-typing-mobile h1:nth-child(6) {
-    width: 2.6em;
+    width: 2.2em;
     opacity: 0;
     -webkit-animation: type3 0.6s steps(20, end), blink .5s step-end infinite alternate;
     animation: type3 0.6s steps(20, end), blink .5s step-end infinite alternate;
