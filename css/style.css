@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700,700i&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700,700i&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
 
 * {
   margin: 0;
@@ -36,8 +37,8 @@ header {
 }
 
 body {
-  font-family: 'Alegreya Sans', Verdana, sans-serif;
-  font-size: 101%;
+  font-family: 'Inter', Verdana, sans-serif;
+  font-size: 95%;
   /*16px=100%*/
   line-height: 1.15em;
   -webkit-font-feature-settings: "lnum";
@@ -73,7 +74,7 @@ footer {
 }
 
 .social-media img {
-  width: 30%;
+  width: 28%;
   margin-right: 2%;
 }
 
@@ -109,7 +110,7 @@ h2 {
   font-weight: 400;
   line-height: 0.8;
   display: inline-block;
-  letter-spacing: 1.5px;
+  letter-spacing: 0px;
 }
 
 h3 {
@@ -118,21 +119,21 @@ h3 {
   margin-block-start: 0em;
   padding-bottom: 3%;
   text-transform: uppercase;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.2px;
 }
 
 h4 {
   padding-top: 5%;
-  padding-bottom: 15%;
+  padding-bottom: 10%;
   font-weight: 400;
-  font-size: 130%;
-  letter-spacing: 0.4px;
+  font-size: 115%;
+  letter-spacing: 0.1px;
 }
 
 p {
   font-size: 92%;
-  letter-spacing: 0.3px;
-  line-height: 1.4em;
+  /* letter-spacing: 0.1px; */
+  line-height: 1.5;
 }
 
 a {
@@ -144,7 +145,7 @@ a:hover {
   /* background-color: #95a5a6; */
   text-decoration: underline;
   cursor: pointer;
-  cursor: url('../img/arrow-.svg'), auto;
+  cursor: url('../img/arrow-.png'), auto;
 }
 
 .rolecontext {
@@ -411,8 +412,8 @@ video {
 
 .splash-box {
   box-shadow:
-    inset 0em -0.15em 0 0 white,
-    inset 0 -0.4em var(--project-color);
+    inset 0.07em -0.15em 0 0 white,
+    inset 0 -0.35em var(--project-color);
   display: inline;
   line-height: 1em;
 }

@@ -14,7 +14,7 @@ header {
 
 .grid-container-index {
   width: 92%;
-  margin: 0% 4% 0 4%;
+  margin: 0% 4% 10% 4%;
   display: grid;
   grid-template-columns: repeat(13, 1fr);
   grid-template-rows: repeat(auto);
@@ -30,6 +30,12 @@ header {
 }
 
 /* -------------------- The typewriter effect -------------------- */
+h1 {
+  font-size: 5.3rem;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
 .css-typing-mobile {
   display: none;
 }
@@ -43,7 +49,7 @@ header {
 }
 
 .css-typing h1:nth-child(1) {
-  width: 8.9em;
+  width: 10.5em;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
@@ -51,7 +57,7 @@ header {
 }
 
 .css-typing h1:nth-child(2) {
-  width: 8.7em;
+  width: 10.3em;
   opacity: 0;
   -webkit-animation: type2 2s steps(40, end);
   animation: type2 2s steps(40, end);
@@ -62,7 +68,7 @@ header {
 }
 
 .css-typing h1:nth-child(3) {
-  width: 7.3em;
+  width: 8.4em;
   opacity: 0;
   -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
   animation: type3 1.5s steps(20, end), blink .5s step-end infinite alternate;
@@ -216,13 +222,13 @@ header {
 
 @media all and (max-width: 1024px) {
   .grid-container-index {
-    margin: 9% 4% 0 4%
+    margin: 9% 4% 10% 4%
   }
 }
 
 @media all and (max-width: 900px) {
   .grid-container-index {
-    margin: 12% 4% 0 4%
+    margin: 12% 4% 10% 4%
   }
 }
 
@@ -241,6 +247,10 @@ header {
   }
 
   /*--------------effekr-----------------*/
+  h1 {
+    font-size: 2.4em;
+  }
+
   .css-typing {
     display: none;
   }
@@ -256,7 +266,7 @@ header {
   }
 
   .css-typing-mobile h1:nth-child(1) {
-    width: 4.4em;
+    width: 5.1em;
     -webkit-animation: type 1s steps(40, end);
     animation: type 1s steps(40, end);
     -webkit-animation-fill-mode: forwards;
@@ -264,7 +274,7 @@ header {
   }
 
   .css-typing-mobile h1:nth-child(2) {
-    width: 4.7em;
+    width: 5.1em;
     opacity: 0;
     -webkit-animation: type2 1s steps(40, end);
     animation: type2 1s steps(40, end);
@@ -275,7 +285,7 @@ header {
   }
 
   .css-typing-mobile h1:nth-child(3) {
-    width: 5.6em;
+    width: 6.6em;
     opacity: 0;
     -webkit-animation: type2 1.3s steps(40, end);
     animation: type2 1.3s steps(40, end);
@@ -286,7 +296,7 @@ header {
   }
 
   .css-typing-mobile h1:nth-child(4) {
-    width: 3.3em;
+    width: 4em;
     opacity: 0;
     -webkit-animation: type2 0.8s steps(40, end);
     animation: type2 0.8s steps(40, end);
@@ -297,7 +307,7 @@ header {
   }
 
   .css-typing-mobile h1:nth-child(5) {
-    width: 5em;
+    width: 5.7em;
     opacity: 0;
     -webkit-animation: type2 1.3s steps(20, end);
     animation: type2 1.3s steps(20, end);
@@ -308,7 +318,7 @@ header {
   }
 
   .css-typing-mobile h1:nth-child(6) {
-    width: 2.2em;
+    width: 2.6em;
     opacity: 0;
     -webkit-animation: type3 0.6s steps(20, end), blink .5s step-end infinite alternate;
     animation: type3 0.6s steps(20, end), blink .5s step-end infinite alternate;

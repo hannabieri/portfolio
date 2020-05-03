@@ -30,3 +30,29 @@
 #slide-6 {
   background-image: url("../img/te/iphone_6_gr.png");
 }
+
+@media (max-width: 1024px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), not all, not all, not all, only screen and (max-width: 1024px) and (min-resolution: 192dpi), only screen and (max-width: 1024px) and (min-resolution: 2dppx) {
+  .splash_image {
+    height: 55vh;
+    grid-column: 9 / 13;
+    margin-top: 8%;
+  }
+}
+
+@media (max-width: 680px) {
+  .splash_image {
+    grid-column: 5 / 7;
+    float: right;
+    height: 42vh;
+    margin-top: 30%;
+    z-index: 0;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .splash_image {
+    grid-column: 4 / 7;
+    width: auto;
+  }
+}
