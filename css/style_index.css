@@ -38,11 +38,34 @@ header {
   display: none;
 }
 
+.under-construction {
+  height: 200px;
+  width: 200px;
+  background-color: #0b0280;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  position: absolute;
+  margin-left: 72%;
+  margin-top: 10%;
+  transform: rotate(20deg);
+}
+
+.under-construction h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  line-height: 20px;
+  padding: 5%;
+}
+
 /* -------------------- The typewriter effect -------------------- */
 h1 {
   font-size: 5.3rem;
   font-weight: 400;
-  letter-spacing: 0;
+  letter-spacing: -2px;
 }
 
 .css-typing-mobile {
